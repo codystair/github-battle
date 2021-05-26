@@ -16,6 +16,7 @@
   "author": "Cody Stair <ccstair27@gmail.com> (codystair.github.io)",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
