@@ -13,6 +13,10 @@ module.exports = {
       { test: /\.css$/, use: ['style-loader', 'css-loader']}
     ]
   },
+  devServer: {
+    inline:true,
+    port: 8008
+  },
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
